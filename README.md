@@ -28,8 +28,8 @@
 
 Остается обратиться к программе с запросами, переданными так же в виде файла - process_requests.json. Содержит массив запросов к каталогу и настройки сериализации (имя фала базы данных). Последовательно, по номерам запросов программа обойдет их и выведет результативный JSON в стандартный поток вывода. Запускаеться ключем process_requests.
 
-**./transport_catalogue make_base** 
-**./transport_catalogue process_requests**
+- **./transport_catalogue make_base** 
+- **./transport_catalogue process_requests**
 
 Примеры корректных make_base.json и process_requests.json приложены к проекты.
 
